@@ -1,0 +1,413 @@
+@font-face {
+    font-family:'black';
+    src: url(/fontes/AirbnbCereal_W_Blk.otf);
+}
+
+@font-face {
+    font-family:'bold';
+    src: url(/fontes/AirbnbCereal_W_Bd.otf);
+}
+
+@font-face {
+    font-family:'light';
+    src: url(/fontes/AirbnbCereal_W_Lt.otf);
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.topo{
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(240, 240, 240);
+    color:black;
+}
+
+.texto-topo:hover{
+    cursor: pointer;
+}
+
+.texto-topo{
+    font-family:'bold';
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.img-fundo{
+    background-image: url(/imgs/jericoacoara-6.jpg.a486f4c2263d7a100fa01cb808cf7c84.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.menu{
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    font-family:'light';
+
+    
+}
+
+
+.menu-flex{
+    flex: 1;
+}
+
+.logo{
+    height:32px ;
+    width: 102px;
+    margin-left: 80px;
+}
+
+.menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.menus-item{
+    font-family: 'bold';
+    font-size: 15px; 
+    cursor: pointer;
+}
+
+.menus-esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menus-item-esquerda{
+    font-family: 'black';
+    font-size: 15px;
+    margin:0 8px;
+
+}
+
+.menus-item-esquerda button{
+    cursor: pointer;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: transparent;
+    font-family: 'black';
+    font-size: 15px;
+}
+
+.menus-item-esquerda-final{
+    cursor: pointer;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgb(240,240,240) ;
+    font-family: 'black';
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menus-item-esquerda-final button{
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.menus-item-esquerda button:hover{
+    cursor: pointer;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgb(240,240,240);
+}
+
+.buscas{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.busca{
+    height: 100%;
+    background-color: rgb(240,240,240);
+    border-radius: 45px;
+    border: 0;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-busca-1{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.item-busca{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.item-busca-4{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.busca b{
+    margin-left: 30px;
+}
+
+.texto-busca1{
+    font-family: 'bold';
+    font-size: 13px;
+}
+
+.texto-busca2{
+    font-family: 'light';
+    font-size: 11px;
+    color: gray;
+}
+
+.separador{
+    position: absolute;
+    height: 35px;
+    width: 0.1px;
+    background: gray;
+    margin-left: 250px;
+
+}
+.separador-2{
+    position: absolute;
+    height: 35px;
+    width: 0.1px;
+    background: gray;
+    margin-left: 130px;
+
+}
+.separador-3{
+    position: absolute;
+    height: 35px;
+    width: 0.1px;
+    background: gray;
+    margin-left: 130px;
+
+}
+
+.flex-item4-2 button{
+    width: 50px;
+    height: 50px;
+    border-radius: 48%;
+    border: 0;
+    background-color: #FF385C;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.flex-item4-2 button:hover{
+    background-color: #E41D5D;
+}
+
+.o-melhor{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items:initial;
+    padding: 80px;
+}
+
+.o-melhor b{
+    font-size: 53px;
+    font-family:'bold';
+    color: rgb(240, 240, 240);
+}
+
+.subtitulo{
+    font-size: 20px;
+    font-family: 'bold';
+    width: 350px;
+    color: white;
+}
+.o-melhor button{
+    background-color:#FF385C;
+    font-family:'bold';
+    color: white;
+    border: 0;
+    width: 90px;
+    border-radius: 20px;
+}
+
+.o-melhor button:hover{
+    cursor: pointer;
+    background-color: #E41D5D;
+}
+
+.explore{
+    margin-left:80px;
+    font-family: black;
+    font-size: 25px;
+}
+
+
+.locais{
+    
+    height: 80px;
+    margin-left:80px;
+    margin-right:80px;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.local-item img {
+    height: 40px;
+    border-radius: 10px;
+    max-width: 60px;
+    
+
+}
+
+.local-item{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    
+
+}
+
+.texto-local{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.texto-local-cinza{
+    color: gray;
+}
+
+.More{
+    margin-top: 10px;
+    margin-left:80px;
+    font-family: black;
+    font-size: 25px;
+}
+
+.more-fotos{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    height: 180px;
+    
+}
+
+.more-item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-more{
+    font-size: 15px;
+    font-family: 'bold';
+    padding: 5px;
+}
+
+.more-item img{
+    width:250px;
+    height: 255px;
+    border-radius: 10px;
+}
+.Experiências{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    height: 180px;
+    
+}
+
+.Experiências-item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-Experiências{
+    font-size: 15px;
+    font-family: 'bold';
+    color: gray;
+}
+
+.Experiências-item img{
+    width:358px;
+    height: 320px;
+    border-radius: 10px;
+}
+.Experiências-texto{
+    font-size: 15px;
+    font-family: 'bold';
+    color: black;
+}
+
+.Descubra{
+    margin-top: 10px;
+    margin-left:80px;
+    font-family: black;
+    font-size: 25px;
+}
+
+.Descubra-sub{
+    margin-top: 10px;
+    margin-left:80px;
+    font-family:'black';
+
+    color: rgb(63, 63, 63);
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mostrar-text{
+    font-size: 20px;
+    font-family:'bold';
+}
+
+.mostrar{
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.mostrar:hover{
+    cursor: pointer;
+}
+
+
+
+
+
